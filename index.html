@@ -14,6 +14,8 @@
 
 <body>
 
+
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
@@ -22,14 +24,49 @@
 
                 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
 
-                    <button class="btn btn-success me-md-2" type="button" data-bs-toggle="modal"
-                        data-bs-target="modal-body">Create a new post</button>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Create a new post
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Create a new post</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    En que estas pensando
+
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" aria-label="Sizing example input"
+                                            aria-describedby="inputGroup-sizing-default">
+                                    </div>
+                                    <button type="button" class="btn btn-outline-secondary"><i
+                                            class="fa-regular fa-camera"></i></button>
+                                    <button type="button" class="btn btn-outline-secondary"><i
+                                            class="fa-solid fa-location-dot"></i></button>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-success">Publish</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
 
 
 
                 </div>
 
-                <div class="btn-group">
+                <div class="btn-group ms-2">
                     <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
                         aria-expanded="false">
                         <i class="fa-solid fa-gear"></i>
@@ -61,90 +98,105 @@
 
     </ul>
     <div class="tab-content" id="pills-tabContent">
-        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">tabla
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="container-fluid">
 
-            <div class="row">
 
-                <div class="col-4">
-                    <div class="ratio ratio-1x1">
-                        <img src="https://cdn.dreamborn.ink/images/en/cards/012/8fcbc773005c4b00f86e75150ff1e9286dd4d79d">
+                <div class="row">
+
+                    <div class="col-md-4 mb-2 mb-md-0 p-2">
+                        <div class="ratio ratio-1x1">
+                            <img
+                                src="https://cdn.dreamborn.ink/images/en/cards/012/8fcbc773005c4b00f86e75150ff1e9286dd4d79d">
+                        </div>
                     </div>
+
+                    <div class="col-md-4 mb-2 mb-md-0 p-2">
+                        <div class="ratio ratio-1x1">
+                            <img
+                                src="https://cdn.dreamborn.ink/images/en/cards/010/44ffd33246442d2992e2ed64141ba34a39ccb638">
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-2 mb-md-0 p-2">
+                        <div class="ratio ratio-1x1">
+                            <img
+                                src="https://cdn.dreamborn.ink/images/en/cards/012/506da90f397802f446cf54ea2a7e53a5cbc49a8d">
+                        </div>
+                    </div>
+
                 </div>
 
-                <div class="col-4">
-                    <div class="ratio ratio-1x1">
-                        <img src="https://cdn.dreamborn.ink/images/en/cards/012/8fcbc773005c4b00f86e75150ff1e9286dd4d79d">
+                <div class="row">
+
+                    <div class="col-md-4 mt-2 mt-md-0 p-2">
+                        <div class="ratio ratio-1x1">
+                            <img
+                                src="https://cdn.dreamborn.ink/images/en/cards/011/bf70b3ba9536d71dc4cbf96ff6ebb89810197792">
+                        </div>
+
+
                     </div>
+
+                    <div class="col-md-4 mt-2 mt-md-0 p-2">
+                        <div class="ratio ratio-1x1">
+                            <img
+                                src="https://cdn.dreamborn.ink/images/en/cards/011/a18776aa820ca891d117a4efc3016ccf85289f57">
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-md-4 mt-2 mt-md-0 p-2">
+                        <div class="ratio ratio-1x1">
+                            <img
+                                src="https://cdn.dreamborn.ink/images/en/cards/012/1980c0feee79e651a0af0601ea6fe6ff951bff82">
+                        </div>
+
+
+                    </div>
+
                 </div>
 
-                <div class="col-4">
-                    <div class="ratio ratio-1x1">
-                        <img src="https://cdn.dreamborn.ink/images/en/cards/012/8fcbc773005c4b00f86e75150ff1e9286dd4d79d">
+                <div class="row">
+
+                    <div class="col-md-4 mt-2 mt-md-0 p-2">
+                        <div class="ratio ratio-1x1">
+                            <img
+                                src="https://cdn.dreamborn.ink/images/en/cards/011/6d30942484295f4e7bb87857144b40a2725782d7">
+                        </div>
+
                     </div>
+
+                    <div class="col-md-4 mt-2 mt-md-0 p-2">
+                        <div class="ratio ratio-1x1">
+                            <img
+                                src="https://cdn.dreamborn.ink/images/en/cards/010/f4831170b90d1541228cd1527fd8f81dbe2d4c46">
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-md-4 mt-2 mt-md-0 p-2">
+                        <div class="ratio ratio-1x1">
+                            <img
+                                src="https://cdn.dreamborn.ink/images/en/cards/012/2bb81a839bcfb70fece6f427b3298c28e65b3776">
+                        </div>
+
+                    </div>
+
                 </div>
+
 
             </div>
 
-            <div class="row">
 
-                <div class="col-4 mt-2">
-                    <div class="ratio ratio-1x1">
-                        <img src="https://cdn.dreamborn.ink/images/en/cards/012/8fcbc773005c4b00f86e75150ff1e9286dd4d79d">
-                    </div>
-                    
-                    
-                </div>
-
-                <div class="col-4">
-                    <div class="ratio ratio-1x1">
-                        <img src="https://cdn.dreamborn.ink/images/en/cards/012/8fcbc773005c4b00f86e75150ff1e9286dd4d79d">
-                    </div>
-                    
-                    
-                </div>
-
-                <div class="col-4">
-                    <div class="ratio ratio-1x1">
-                        <img src="https://cdn.dreamborn.ink/images/en/cards/012/8fcbc773005c4b00f86e75150ff1e9286dd4d79d">
-                    </div>
-                    
-                    
-                </div>
-
-            </div>
-
-            <div class="row">
-
-                <div class="col-4">
-                    <div class="ratio ratio-1x1">
-                        <img src="https://cdn.dreamborn.ink/images/en/cards/012/8fcbc773005c4b00f86e75150ff1e9286dd4d79d">
-                    </div>
-                    
-                    
-
-
-                </div>
-                <div class="col-4">
-                    <div class="ratio ratio-1x1">
-                        <img src="https://cdn.dreamborn.ink/images/en/cards/012/8fcbc773005c4b00f86e75150ff1e9286dd4d79d">
-                    </div>
-                    
-
-                </div>
-                <div class="col-4">
-                    <div class="ratio ratio-1x1">
-                        <img src="https://cdn.dreamborn.ink/images/en/cards/012/8fcbc773005c4b00f86e75150ff1e9286dd4d79d">
-                    </div>
-                    
-                </div>
-
-            </div>
 
 
 
 
         </div>
-        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">columna
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
 
             <div class="card border-success mb-3 mx-auto" style="max-width: 30rem;">
 
@@ -164,6 +216,7 @@
 
                 </div>
                 <div class="card-footer bg-transparent border-success">
+                    <h6><i class="fa-solid fa-heart"></i>2400 Likes</h6>
                     <p>✨ Carta destacada del día: Rex 🦖<br>
 
                         Uno de los personajes más queridos de Toy Story aterriza en Lorcana con todo su carisma. Una
@@ -177,6 +230,354 @@
                     <p><a href="#" class="text-decoration-none">#DisneyLorcana #Rex #ToyStory #Coleccionismo
                             #TCGCollector
                             #LorcanaCards</a></p>
+                </div>
+            </div>
+
+
+            <div class="card border-success mb-3 mx-auto" style="max-width: 30rem;">
+
+                <div class="card-header bg-transparent border-success">
+                    <p class="fw-bold">Turno 6 y te quiebro</p>
+                </div>
+
+                <div class="card-body text-success">
+
+                    <div>
+
+                        <div><img class="ratio ratio-1x1"
+                                src="https://cdn.dreamborn.ink/images/en/cards/010/44ffd33246442d2992e2ed64141ba34a39ccb638">
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="card-footer bg-transparent border-success">
+                    <h6><i class="fa-solid fa-heart"></i>3700 Likes</h6>
+                    <p>
+
+                        🛡️✨ Carta destacada del día: Demona - Scourge of the Wyvern Clan ✨🛡️
+
+                        Una de las villanas más icónicas llega a Lorcana con una carta que no pasa desapercibida. Su
+                        increíble ilustración y su potencial estratégico la convierten en una incorporación muy deseada
+                        para cualquier colección.
+
+                        📦 Disponible en nuestra tienda.
+                        🎴 Ideal para coleccionistas y jugadores competitivos.
+
+                        ¿La añadirías a tu colección? 👀</p>
+
+                    <p><a href="#" class="text-decoration-none">#DisneyLorcana #Demona #LorcanaTCG #Coleccionismo #TCG
+                            #DisneyGargoyles #TradingCards
+                            #LorcanaCollector #CardOfTheDay #GeekStore #TCGSpain #LorcanaES</a></p>
+                </div>
+            </div>
+
+            <div class="card border-success mb-3 mx-auto" style="max-width: 30rem;">
+
+                <div class="card-header bg-transparent border-success">
+                    <p class="fw-bold">Cambio de planes</p>
+                </div>
+
+                <div class="card-body text-success">
+
+                    <div>
+
+                        <div><img class="ratio ratio-1x1"
+                                src="https://cdn.dreamborn.ink/images/en/cards/012/506da90f397802f446cf54ea2a7e53a5cbc49a8d">
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="card-footer bg-transparent border-success">
+                    <h6><i class="fa-solid fa-heart"></i>4500 Likes</h6>
+                    <p>🔭✨ Carta destacada del día: Lenny - Toy Binoculars Clan ✨🔭
+
+                        ¡No subestimes el poder de una buena perspectiva! 👀
+
+                        Lenny - Toy Binoculars Clan llega a Disney Lorcana demostrando que incluso los personajes más
+                        discretos pueden marcar la diferencia. Con su espíritu aventurero y su inseparable juguete,
+                        Lenny aporta diversión, estrategia y todo el encanto del universo de Toy Story.
+
+                        🧸 Una carta que encantará a los fans de Pixar y a los coleccionistas que buscan completar su
+                        clan de juguetes.
+
+                        💬 ¿Qué personaje de Toy Story te gustaría ver más en Lorcana?
+
+                        👇 Te leemos en los comentarios.</p>
+
+                    <p><a href="#" class="text-decoration-none">#DisneyLorcana #LorcanaTCG #Lenny #ToyBinocularsClan
+                            #ToyStory #Pixar #DisneyCards #TradingCardGame #TCGCommunity #CardOfTheDay #LorcanaCollector
+                            #LorcanaEspaña #DisneyFans #Coleccionismo #JuegosDeCartas #PixarFans #LorcanaCommunity</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card border-success mb-3 mx-auto" style="max-width: 30rem;">
+
+                <div class="card-header bg-transparent border-success">
+                    <p class="fw-bold">Bajo olaf y pierdes 2</p>
+                </div>
+
+                <div class="card-body text-success">
+
+                    <div>
+
+                        <div><img class="ratio ratio-1x1"
+                                src="https://cdn.dreamborn.ink/images/en/cards/011/bf70b3ba9536d71dc4cbf96ff6ebb89810197792">
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="card-footer bg-transparent border-success">
+                    <h6><i class="fa-solid fa-heart"></i>9200 Likes</h6>
+                    <p>⛄❄️ Carta destacada del día: Olaf - Snowman of Action ❄️⛄
+
+                        ¿Quién dijo que un muñeco de nieve no puede ser un héroe de acción? 💥
+
+                        Olaf - Snowman of Action llega a Disney Lorcana con toda la energía, el optimismo y el humor que
+                        lo han convertido en uno de los personajes más queridos de Frozen. Siempre dispuesto a lanzarse
+                        a la aventura, Olaf demuestra que el valor no depende del tamaño... ¡ni de la cantidad de nieve!
+                        ☃️✨
+
+                        🎴 Una carta perfecta para los fans de Arendelle y para quienes disfrutan de personajes capaces
+                        de robarse el protagonismo dentro y fuera del juego.
+
+                        💬 Cuéntanos:
+                        ¿Cuál es tu personaje favorito de Frozen en Lorcana?
+
+                        👇 ¡Te leemos!</p>
+
+                    <p><a href="#" class="text-decoration-none">#DisneyLorcana #LorcanaTCG #Olaf #SnowmanOfAction
+                            #Frozen #DisneyFrozen #DisneyCards #TCGCommunity #TradingCardGame #CardOfTheDay
+                            #LorcanaCollector #LorcanaEspaña #DisneyFans #Coleccionismo #JuegosDeCartas #Arendelle
+                            #OlafFan #LorcanaCommunity</a></p>
+                </div>
+            </div>
+
+            <div class="card border-success mb-3 mx-auto" style="max-width: 30rem;">
+
+                <div class="card-header bg-transparent border-success">
+
+                    <p class="fw-bold">Boosteo y robo</p>
+                </div>
+
+                <div class="card-body text-success">
+
+                    <div>
+
+                        <div><img class="ratio ratio-1x1"
+                                src="https://cdn.dreamborn.ink/images/en/cards/011/a18776aa820ca891d117a4efc3016ccf85289f57">
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="card-footer bg-transparent border-success">
+                    <h6><i class="fa-solid fa-heart"></i>10500 Likes</h6>
+                    <p>🎩👻 Carta destacada del día: Pete - Ghost of Christmas Future 👻🎩
+
+                        El futuro puede ser incierto... pero con Pete observando desde las sombras, seguro que será
+                        interesante. ❄️🌙
+
+                        Pete - Ghost of Christmas Future aporta a Disney Lorcana una versión oscura y misteriosa de uno
+                        de los personajes más clásicos de Disney. Inspirado en el espíritu de las futuras Navidades,
+                        esta carta destaca por su increíble ilustración y su presencia imponente sobre la mesa de juego.
+
+                        ✨ Una carta que combina nostalgia, misterio y el encanto de los cuentos navideños clásicos.
+
+                        🎴 Perfecta para coleccionistas que buscan cartas con diseños únicos y para los fans de las
+                        reinterpretaciones más sorprendentes de los personajes Disney.
+
+                        💬 ¿Cuál es tu versión favorita de Pete en Lorcana?
+
+                        👇 ¡Déjala en los comentarios!</p>
+
+                    <p><a href="#" class="text-decoration-none">#DisneyLorcana #LorcanaTCG #Olaf #SnowmanOfAction
+                            #Frozen #DisneyFrozen #DisneyCards #TCGCommunity #TradingCardGame #CardOfTheDay
+                            #LorcanaCollector #LorcanaEspaña #DisneyFans #Coleccionismo #JuegosDeCartas #Arendelle
+                            #OlafFan #LorcanaCommunity</a></p>
+                </div>
+            </div>
+
+            <div class="card border-success mb-3 mx-auto" style="max-width: 30rem;">
+
+                <div class="card-header bg-transparent border-success">
+                    <p class="fw-bold">Turno 3 coste 6</p>
+                </div>
+
+                <div class="card-body text-success">
+
+                    <div>
+
+                        <div><img class="ratio ratio-1x1"
+                                src="https://cdn.dreamborn.ink/images/en/cards/012/1980c0feee79e651a0af0601ea6fe6ff951bff82">
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="card-footer bg-transparent border-success">
+                    <h6><i class="fa-solid fa-heart"></i>11000 Likes</h6>
+                    <p>🤖⚠️ Carta destacada del día: Omnidroid - V.10 ⚠️🤖
+
+                        Cuando la tecnología se convierte en una amenaza imparable, aparece Omnidroid - V.10. 💥
+
+                        Directamente inspirado en el icónico villano mecánico de Los Increíbles, esta carta lleva al
+                        campo de juego toda la potencia, resistencia y presencia que hicieron del Omnidroid uno de los
+                        enemigos más memorables de Pixar.
+
+                        🔥 Su impresionante diseño captura a la perfección la sensación de peligro y poder que transmite
+                        esta máquina de combate, convirtiéndola en una pieza imprescindible para los fans de The
+                        Incredibles y los coleccionistas de Disney Lorcana.
+
+                        🎴 Una carta que demuestra que no hacen falta superpoderes para convertirse en una auténtica
+                        amenaza.
+
+                        💬 Pregunta para la comunidad:
+                        ¿Crees que el Omnidroid es uno de los mejores villanos creados por Pixar?
+
+                        👇 ¡Déjanos tu opinión en los comentarios!</p>
+
+                    <p><a href="#" class="text-decoration-none">#DisneyLorcana #LorcanaTCG #Olaf #SnowmanOfAction
+                            #Frozen #DisneyFrozen #DisneyCards #TCGCommunity #TradingCardGame #CardOfTheDay
+                            #LorcanaCollector #LorcanaEspaña #DisneyFans #Coleccionismo #JuegosDeCartas #Arendelle
+                            #OlafFan #LorcanaCommunity</a></p>
+                </div>
+            </div>
+
+            <div class="card border-success mb-3 mx-auto" style="max-width: 30rem;">
+
+                <div class="card-header bg-transparent border-success">
+                    <p class="fw-bold">Reset y comenzamos de nuevo</p>
+                </div>
+
+                <div class="card-body text-success">
+
+                    <div>
+
+                        <div><img class="ratio ratio-1x1"
+                                src="https://cdn.dreamborn.ink/images/en/cards/011/6d30942484295f4e7bb87857144b40a2725782d7">
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="card-footer bg-transparent border-success">
+                    <h6><i class="fa-solid fa-heart"></i>20000 Likes</h6>
+                    <p>🌩️⚡ Carta destacada del día: Raging Storm ⚡🌩️
+
+                        Cuando la tormenta desata toda su furia, no hay lugar donde esconderse. 🌪️
+
+                        Raging Storm llega a Disney Lorcana como una carta que representa el poder indomable de la
+                        naturaleza. Con una ilustración impactante y una energía arrolladora, esta acción es capaz de
+                        cambiar el ritmo de la partida en un instante.
+
+                        ⚡ Rayos, viento y caos se combinan en una carta que transmite fuerza desde el primer vistazo.
+
+                        🎴 Tanto por su espectacular arte como por su presencia en el juego, Raging Storm es una de esas
+                        cartas que no pasa desapercibida entre los coleccionistas y jugadores de Lorcana.
+
+                        💬 Cuéntanos:
+                        ¿Qué carta de acción tiene la ilustración más impresionante para ti?
+
+                        👇 ¡Te leemos en los comentarios!</p>
+
+                    <p><a href="#" class="text-decoration-none">#DisneyLorcana #LorcanaTCG #Olaf #SnowmanOfAction
+                            #Frozen #DisneyFrozen #DisneyCards #TCGCommunity #TradingCardGame #CardOfTheDay
+                            #LorcanaCollector #LorcanaEspaña #DisneyFans #Coleccionismo #JuegosDeCartas #Arendelle
+                            #OlafFan #LorcanaCommunity</a></p>
+                </div>
+            </div>
+
+            <div class="card border-success mb-3 mx-auto" style="max-width: 30rem;">
+
+                <div class="card-header bg-transparent border-success">
+                    <p class="fw-bold">Baja el gato y diversion para rato</p>
+                </div>
+
+                <div class="card-body text-success">
+
+                    <div>
+
+                        <div><img class="ratio ratio-1x1"
+                                src="https://cdn.dreamborn.ink/images/en/cards/010/f4831170b90d1541228cd1527fd8f81dbe2d4c46">
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="card-footer bg-transparent border-success">
+                    <h6><i class="fa-solid fa-heart"></i>23000 Likes</h6>
+                    <p>😸✨ Carta destacada del día: Cheshire Cat - Inexplicable ✨😸
+
+                        Una sonrisa en la oscuridad... y de repente, ya es demasiado tarde. 🌙🌀
+
+                        Cheshire Cat - Inexplicable llega a Disney Lorcana con todo el misterio y la imprevisibilidad
+                        que hicieron del Gato de Cheshire uno de los personajes más memorables de Alicia en el País de
+                        las Maravillas. Siempre aparece cuando menos lo esperas y desaparece justo cuando crees haberlo
+                        entendido.
+
+                        💜 Su espectacular ilustración captura a la perfección esa naturaleza enigmática que desafía
+                        toda lógica y convierte esta carta en una auténtica joya para cualquier colección.
+
+                        🎴 Entre sonrisas imposibles, acertijos y un toque de locura, esta carta es una muestra perfecta
+                        de la magia que hace único al universo de Lorcana.
+
+                        💬 ¿Cuál es tu personaje favorito de Alicia en el País de las Maravillas?
+
+                        👇 ¡Cuéntanos en los comentarios!</p>
+
+                    <p><a href="#" class="text-decoration-none">#DisneyLorcana #LorcanaTCG #CheshireCat
+                            #CheshireCatInexplicable #AliceInWonderland #AliciaEnElPaisDeLasMaravillas #DisneyCards
+                            #TradingCardGame #TCGCommunity #CardSpotlight #LorcanaCollector #LorcanaEspaña #DisneyFans
+                            #Coleccionismo #JuegosDeCartas #DisneyMagic #LorcanaCommunity #CardOfTheDay 😸✨</a></p>
+                </div>
+            </div>
+
+            <div class="card border-success mb-3 mx-auto" style="max-width: 30rem;">
+
+                <div class="card-header bg-transparent border-success">
+                    <p class="fw-bold">Estoy Mamadisimo</p>
+                </div>
+
+                <div class="card-body text-success">
+
+                    <div>
+
+                        <div><img class="ratio ratio-1x1"
+                                src="https://cdn.dreamborn.ink/images/en/cards/012/2bb81a839bcfb70fece6f427b3298c28e65b3776">
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="card-footer bg-transparent border-success">
+                    <h6><i class="fa-solid fa-heart"></i>25000 Likes</h6>
+                    <p>🗺️🔍 Carta destacada del día: Milo Thatch - Getting His Hands Dirty 🔍🗺️
+
+                        Los grandes descubrimientos no ocurren desde un escritorio. 💪📜
+
+                        Milo Thatch - Getting His Hands Dirty nos muestra a Milo en su faceta más decidida: dispuesto a
+                        ensuciarse las manos para desentrañar los misterios de Atlantis. Su pasión por el conocimiento,
+                        su perseverancia y su espíritu aventurero lo convierten en uno de los exploradores más queridos
+                        del universo Disney.
+
+                        ✨ Con una ilustración llena de personalidad y referencias a su incansable búsqueda de
+                        respuestas, esta carta es un homenaje perfecto a quienes nunca dejan de explorar.
+
+                        🎴 Una incorporación imprescindible para los fans de Atlantis: El Imperio Perdido y para los
+                        coleccionistas que disfrutan de personajes con una historia tan rica como inspiradora.
+
+                        💬 ¿Crees que Atlantis es una de las películas más infravaloradas de Disney?
+
+                        👇 ¡Déjanos tu opinión en los comentarios!</p>
+
+                    <p><a href="#" class="text-decoration-none">#DisneyLorcana #LorcanaTCG #MiloThatch
+                            #GettingHisHandsDirty #Atlantis #AtlantisTheLostEmpire #DisneyCards #TradingCardGame
+                            #TCGCommunity #CardSpotlight #LorcanaCollector #DisneyFans #Coleccionismo #JuegosDeCartas
+                            #LorcanaEspaña #DisneyAdventure #CardOfTheDay 🗺️✨</a></p>
                 </div>
             </div>
 
